@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>MonoHaskell by bitemyapp</title>
+    <title>MonoHaskell</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -18,15 +18,6 @@
 
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/bitemyapp/monohaskell">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/bitemyapp/monohaskell/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/bitemyapp/monohaskell/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
     <div class="wrapper">
 
       <section>
@@ -34,41 +25,51 @@
           <h1>MonoHaskell</h1>
           <p>Why use a programming language from the 90s when you can use one from the 80s?</p>
           <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/bitemyapp">bitemyapp</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+          <span class="credits right">Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
 
         <h3>
+
 <a id="welcome-to-monohaskell" class="anchor" href="#welcome-to-monohaskell" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to MonoHaskell!</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>MonoHaskell is the future of UX-aware, pragmatic FP. By defenestrating unsound, unsafe Haskell '98 typeclasses and sticking to simple, easy to understand monomorphic values &amp; functions MonoHaskell can be used to write code that type-checks in a jiffy!</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+<pre><code>$ cd your_work_dir
+$ git clone git@github.com:monohaskell/MonoHaskell.git
+$ git checkout MonoGHCi
+$ cabal sandbox init && cabal update && cabal install
 </code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<p>After you've built the MonoREPL you're off to the races, get hacking!</p>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Monocode is our craft</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<p>We've crafted some handsome, monomorphically uniform code that is pleasing to the eye and unchallenging to the intellect. We guarantee you will not be forced to learn anything new or your money back!</p>
 
 <h3>
 <a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>If you prefer to not have code generated for you, worry not! With no ad-hoc (which sounds mighty dangerous, doesn't it?) polymorphism or implicit parameters you'll be "driving stick" in all of your MonoHaskell &#8482; code! Also, no macros! Just artisanally, lovingly crafted datatypes and functions in MonoHaskell.</p>
 
 <h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>The Monocode slow-and-thoughtful Philosophy &amp; Promise</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>Our promise is that code will never be unpredictable. Because your types cannot change based on how data is used, you'll never be surprised! We take inspiration here from the Ruby community on the "Principle of Least Surprise". The Ruby community <em>has</em> done a great job demonstrating &amp; vanguarding this PLT aesthetic of never surprising programmers. We believe PL technology has gone too far and has exceeded the faculties of the everyday programmer who cannot be expected to understand abstract math with no applications for web development like "Professional Functors" or "Cochoice Yoder Lemmings". In MonoHaskell &#8482;, it's only the tried &amp; true techniques of programmers long-dead that are considered idiomatic. The MonoHaskell compiler will have a "leveller" flag which will administer electric shocks to programmers that write code too advanced for their coworkers to understand. This will improve FP team cohesion and codebase uniformity greatly!</p>
+
+<h3>
+<a id="no-ftp-here" class="anchor" href="#no-ftp" aria-hidden="true"><span class="octicon octicon-link"></span></a>No FTP!</h3>
+
+<p>Since MonoHaskell &#8482; has removed typeclasses, which were never a good idea to begin with, the possibility of a debate over how practical extremely abstract typeclasses like "Foldableish" and "Traversableish" is impossible, MonoHaskell &#8482; will stay FTP-free, forever! We promise! Don't want to write the same code twice but share our passion for explicit, easy to understand monomorphic code? Consider using <a href="https://www.gnu.org/software/m4/">m4 macros</a>! </p>
+
+<h3>
+<a id="egalitarianism" class="anchor" href="#egalitarianism" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mono-ism is fair and <em>authentic</em></h3>
+<p>Since it takes no time at all for everybody to learn &amp; use MonoHaskell &#8482;, all MonoHaskell &#8482; users are on an even playing field. Everybody's vote in design decisions counts equally because nobody ferrets away secret telescope incantations &amp; operators. Also, no operators! All alphabetical letters for declaration names only! You liked Speak &amp; Spell as a kid right? Why not as an adult in your programming language? By-elections are run to decide whether we should recycle more PL design ideas from the 1960s or not.</p>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+<p>Having trouble installing MonoHaskell? Check out the OCaml at <a href="https://ocaml.org/">https://ocaml.org/</a>.</p>
       </section>
 
     </div>
